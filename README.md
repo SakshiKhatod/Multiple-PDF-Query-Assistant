@@ -68,7 +68,8 @@ Ask questions in the input field, and the system will retrieve relevant chunks o
 
 **7.Project Structure**
 
-app.py: Main application file with the Streamlit UI and the PDF querying logic.
+app.py: Main application file with the Streamlit UI and the PDF querying logic where you can upload only single pdf file (upto 200 MB file)
+app2.py: Main application file with the Streamlit UI and the PDF querying logic where you can upload multiple pdf file (upto 200 MB each file)
 htmlTemplates.py: Contains HTML templates for customizing the UI.
 requirements.txt: Lists all the required dependencies.
 .env: Store your API keys here (this file should not be committed to version control).
