@@ -28,21 +28,20 @@ Hugging face**
 **Setup**
 **1. Clone the Repository**
 
-Copy code
 git clone https://github.com/SakshiKhatod/Multiple-PDF-Query-Assistant.git
 cd Multiple-PDF-Query-Assistant
 
 **2. Install Dependencies**
 Use the following command to install all required dependencies from the requirements.txt file:
 
-Copy code
+
 pip install -r requirements.txt
 
 **3. Set Up HUGGING FACE**
 Create an account on openai and Hugging face.
 Retrieve your API key and region from their dashboard.
 Create a .env file in the root of the project and add your respective API key:
-bash
+
 
 HUGGINGFACEHUB_API_TOKEN=your-huggingface-api-key
 
@@ -52,12 +51,10 @@ Create an account on OpenAI.
 Get your API key from the OpenAI dashboard.
 Add your OpenAI API key to the .env file:
 
-Copy code
 OPENAI_API_KEY=your-openai-api-key
 
 **5. Run the Application**
 You can run the application locally using Streamlit:
-Copy code
 streamlit run app.py
 
 This command will open a local web server, and you can interact with the tool from your browser.
